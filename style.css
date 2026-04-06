@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Gallery using Flexbox */
+#gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Images */
+img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Services list center */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+}
+
+/* Table */
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+/* Buttons */
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+}
